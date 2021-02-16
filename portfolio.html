@@ -6,88 +6,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
 </head>
 <body>
     <header>
         <nav>
-            <a href="#"><span>Web</span>Studio</a>
+            <a class="logo" href="./index.html"><span>Web</span>Studio</a>
     
-            <ul>
+            <ul class="site-nav">
                 <li>
-                    <a href="#">Студия</a>
+                    <a class="link" href="#">Студия</a>
                 </li>
                 <li>
-                    <a href="#">Портфолио</a>
+                    <a class="link-current" href="./portfolio.html">Портфолио</a>
                 </li>
                 <li>
-                    <a href="#">Контакты</a>
+                    <a class="link" href="#">Контакты</a>
                 </li>
             </ul>
         </nav>
-        <ul>
+        <ul class="contact-header">
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="link-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="link-header" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
+
     <main>
-    <!--Портфолио работ -->
+    <!--Примеры работ -->
         <section>
+            <h1 class="visually-hidden">Примеры работ</h1>
             <ul>
-                <li><a href="#">Все</a></li>
-                <li><a href="#">Веб-сайты</a></li>
-                <li><a href="#">Приложения</a></li>
-                <li><a href="#">Дизайн</a></li>
-                <li><a href="#">Маркетинг</a></li>
+                <li><button class="button-current" type="button">Все</button></li>
+                <li><button type="button">Веб-сайты</button></li>
+                <li><button type="button">Приложения</button></li>
+                <li><button type="button">Дизайн</button></li>
+                <li><button type="button">Маркетинг</button></li>
             </ul>
-            <ul>
+            <ul class="example">
                 <li>
-                    <a href="#"><img src="./img/img1.png" alt="Технокряк" width="370" height="294"></a>
-                    <h1>Технокряк</h1>
-                    <p>Веб-сайт</p>
+                    <a class="example-link" href="#"><img src="./img/example1.jpg" alt="Технокряк" width="370" height="294">
+                        <h2 class="examle-title">Технокряк</h2>
+                        <p class="example-type">Веб-сайт</p>
+                    </a>
+                    
                 </li>
                 <li>
-                    <a href="#"><img src="./img/img2.png" alt="Постер New Orlean vs Golden Star" width="370" height="294"></a>
-                    <h1>Постер New Orlean vs Golden Star</h1>
-                    <p>Дизайн</p>
+                    <a class="example-link" href="#"><img src="./img/example2.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
+                        <h2 class="examle-title">Постер New Orlean vs Golden Star</h2>
+                        <p class="example-type">Дизайн</p>
+                    </a>
+                    
                 </li>
                 <li>
-                    <a href="#"><img src="./img/img3.png" alt="Ресторан Seafood" width="370" height="294"></a>
-                    <h1>Ресторан Seafood</h1>
-                    <p>Приложение</p>
+                    <a class="example-link" href="#"><img src="./img/example3.jpg" alt="Ресторан Seafood" width="370" height="294">
+                        <h2 class="examle-title">Ресторан Seafood</h2>
+                        <p class="example-type">Приложение</p>
+                    </a>
+                    
                 </li>
                 <li>
-                    <a href="#"><img src="./img/img4.png" alt="Проект Prime" width="370" height="294"></a>
-                    <h1>Проект Prime</h1>
-                    <p>Маркетинг</p>
+                    <a class="example-link" href="#"><img src="./img/example4.jpg" alt="Проект Prime" width="370" height="294">
+                        <h2 class="examle-title">Проект Prime</h2>
+                        <p class="example-type">Маркетинг</p>
+                    </a>
+                   
                 </li>
                 <li>
-                    <a href="#"><img src="./img/img5.png" alt="Проект Boxes" width="370" height="294"></a>
-                    <h1>Проект Boxes</h1>
-                    <p>Приложение</p>
+                    <a class="example-link" href="#"><img src="./img/example5.jpg" alt="Проект Boxes" width="370" height="294">
+                        <h2 class="examle-title">Проект Boxes</h2>
+                        <p class="example-type">Приложение</p>
+                    </a>
+                    
                 </li>
                 <li>
-                    <a href="#"><img src="./img/img6.png" alt="Inspiration has no Borders" width="370" height="294"></a>
-                    <h1>Inspiration has no Borders</h1>
-                    <p>Веб-сайт</p>
+                    <a class="example-link" href="#"><img src="./img/example6.jpg" alt="Inspiration has no Borders" width="370" height="294">
+                        <h2 class="examle-title">Inspiration has no Borders</h2>
+                        <p class="example-type">Веб-сайт</p>
+                    </a>
+                    
                 </li>
                 <li>
-                    <a href="#"><img src="./img/img7.png" alt="Издание Limited Edition" width="370" height="294"></a>
-                    <h1>Издание Limited Edition</h1>
-                    <p>Дизайн</p>
+                    <a class="example-link" href="#"><img src="./img/example7.jpg" alt="Издание Limited Edition" width="370" height="294">
+                        <h2 class="examle-title">Издание Limited Edition</h2>
+                        <p class="example-type">Дизайн</p>
+                    </a>
+                    
                 </li>
                 <li>
-                    <a href="#"><img src="./img/img8.png" alt="Проект LAB" width="370" height="294"></a>
-                    <h1>Проект LAB</h1>
-                    <p>Маркетинг</p>
+                    <a class="example-link" href="#"><img src="./img/example8.jpg" alt="Проект LAB" width="370" height="294">
+                        <h2 class="examle-title">Проект LAB</h2>
+                        <p class="example-type">Маркетинг</p>
+                    </a>
+                    
                 </li>
                 <li>
-                    <a href="#"><img src="./img/img9.png" alt="Growing Business" width="370" height="294"></a>
-                    <h1>Growing Business</h1>
-                    <p>Приложение</p>
+                    <a class="example-link" href="#"><img src="./img/example9.jpg" alt="Growing Business" width="370" height="294">
+                        <h2 class="examle-title">Growing Business</h2>
+                        <p class="example-type">Приложение</p>
+                    </a>
                 </li>
                 
             </ul>            
@@ -95,16 +118,16 @@
         </section>
     </main>
     <footer>
-        <a href="#"><span>Web</span>Studio</a>
-           <ul>
+        <a class="logo" href="./index.html"><span>Web</span>Studio</a>
+        <ul>
             <li>
-                <address>г. Киев, пр-т Леси Украинки, 26</address>
+                <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
             </li>
             <li>
-                <a href="mailto:info@example.com">info@example.com</a>
+                <a class="link-footer" href="mailto:info@example.com">info@example.com</a>
             </li>
             <li>
-                <a href="tel:+380991111111">+38 099 111 11 11</a>
+                <a class="link-footer" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
         </ul>
     </footer>
